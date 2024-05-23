@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Courgette&family=Open+Sans:wght@300;400&family=Patua+One&family=Poppins:wght@300;400;500;900&family=Sansita+Swashed&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: plum;
+    text-align: center;
+    font-family: "Young Serif";
+}
+main{
+    padding: 45px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    font-size: 6vmin;
+    font-weight: bold;
+    background-color: white;
+    color: purple;
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+    border: none;
+    box-shadow: 0px 0px 19px rgba(0, 0,0,0.3);
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(253, 244, 253);
+}
+#resetBtn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191919;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#newBtn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191919;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.image{
+    width: 12vw;
+}
+.images1{
+    width: 12vw;
+}
+#msg{
+    font-size: 8vmin;
+    color: rgb(30, 28, 28);
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    transition: all 1s ease-in-out;
+}
+
+.hide{
+    display: none;
+}
